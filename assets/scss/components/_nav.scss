@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    height: 100px;
+    padding: $sp3 $sp5;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-mono;
+    background-color: $white;
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu-logo {
+        height: 40px;
+        margin: 0 $sp2;
+    }
+
+    &__menu-item {
+        color: $spanish-gray;
+        margin: 0 $sp2;
+    }
+
+    &__buttons {
+        display: flex;
+    }
+}
